@@ -3,8 +3,6 @@ package com.stimednp.javasamplemvvm.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.List;
-
 /**
  * Created by rivaldy on Aug/03/2020.
  * Find me on my lol Github :D -> https://github.com/im-o

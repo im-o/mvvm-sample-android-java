@@ -3,7 +3,7 @@ package com.stimednp.javasamplemvvm.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Created by rivaldy on Aug/03/2020.
@@ -22,7 +22,7 @@ public class MovieResponse {
     private Integer totalPages;
     @SerializedName("results")
     @Expose
-    private List<MovieList> results;
+    private ArrayList<MovieList> results;
 
     public Integer getPage() {
         return page;
@@ -48,11 +48,11 @@ public class MovieResponse {
         this.totalPages = totalPages;
     }
 
-    public List<MovieList> getResults() {
+    public ArrayList<MovieList> getResults() {
         return results;
     }
 
-    public void setResults(List<MovieList> results) {
+    public void setResults(ArrayList<MovieList> results) {
         this.results = results;
     }
 }
